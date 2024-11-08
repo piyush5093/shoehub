@@ -1,0 +1,276 @@
+/* Global body styles */
+body {
+    background-color: #f4f4f4; /* Soft background color for the entire page */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container styling */
+.login-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;
+    max-width: 400px; /* Max width for the form */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Container hover effect */
+.login-container:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+}
+
+/* Header text styling */
+h2 {
+    color: #FF5722; /* Primary brand color */
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label styling */
+.input-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 2px solid #FF5722; /* Primary color */
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+    margin-top: 5px;
+}
+
+/* Input focus state */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #FF7043; /* Lighter shade for focus */
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF5722; /* Primary color */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #FF7043; /* Lighter shade on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: #FF5722; /* Matching the primary color */
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Global body styles */
+body {
+    background-color: #f4f4f4; /* Soft background color for the entire page */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container styling */
+.login-container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;
+    max-width: 400px; /* Max width for the form */
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Container hover effect */
+.login-container:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+}
+
+/* Header text styling */
+h2 {
+    color: #FF5722; /* Primary brand color */
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label styling */
+.input-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #FF5722; /* Primary color */
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+    margin-top: 5px;
+}
+
+/* Input focus state */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #FF7043; /* Lighter shade for focus */
+    outline: none;
+}
+
+/* Button styling */
+button {
+    margin-left: 10px;
+    width: 100%;
+    padding: 12px;
+    background-color: #FF5722; /* Primary color */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #FF7043; /* Lighter shade on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: #FF5722; /* Matching the primary color */
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #333333; /* Dark grey */
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #FF5722; /* Orange hover effect */
+}
+
+/* Active link in navigation */
+nav .active {
+    background-color: #FF7043; /* Lighter shade for active link */
+}
+
+/* Responsive adjustments for mobile */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .login-container {
+        padding: 30px;
+        width: 90%; /* More width on smaller screens */
+    }
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #FF5722; /* Orange hover effect */
+}
+
+/* Active link in navigation */
+nav .active {
+    background-color: #FF7043; /* Lighter shade for active link */
+}
+
+/* Responsive adjustments for mobile */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .login-container {
+        padding: 50px;
+        width: 90%; /* More width on smaller screens */
+    }
+}
